@@ -1,0 +1,4 @@
+assignment1/Datasets/*
+*.venv/*
+*__pycache__
+*.nvimlog
