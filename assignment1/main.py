@@ -1,6 +1,5 @@
 import numpy as np
 from matplotlib import pyplot as plt
-import functions as ut
 from tqdm.auto import tqdm
 
 # Constants
