@@ -10,8 +10,8 @@ This yielded a relative error in gradients for W and b of:
 
 | Parameter | Relative Error          |
 |-----------|-------------------------|
-| W         | 2.110e-08  |
-| b         | 1.748e-08  |
+| W         | 1.253e-09  |
+| b         | 1.185e-09  |
 
 In otherwords, a really small error, so it is safe to assume the analytical gradient is good.
 
@@ -50,10 +50,10 @@ The final test accuracy is visible in each of the above images, but for good mea
 
 | Set | Test Accuracy |
 |-----|---------------|
-| 0   | 0.2828        |
-| 1   | 0.2712        |
-| 2   | 0.3274        |
-| 3   | 0.3632        |
+| 0   | 0.2675        |
+| 1   | 0.3742        |
+| 2   | 0.3801        |
+| 3   | 0.3627        |
 
 ![0th parameter matrix visual](Images/paramset0visuals.png)
 

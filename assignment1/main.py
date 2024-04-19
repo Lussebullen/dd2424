@@ -68,8 +68,8 @@ class LinearLayer:
         """
         Initializes the weights and biases of the layer.
         """
-        self.W = np.random.normal(0,0.1,size=(K,D))
-        self.b = np.random.normal(0,0.1,size=(K,1))
+        self.W = np.random.normal(0,0.01,size=(K,D))
+        self.b = np.random.normal(0,0.01,size=(K,1))
     
     def softmax(self, x):
         """ Standard definition of the softmax function """
