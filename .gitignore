@@ -3,3 +3,4 @@
 *__pycache__
 *.nvimlog
 assignment2/results/*.pkl
+assignment3/results/*.pkl
